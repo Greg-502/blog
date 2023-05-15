@@ -43,7 +43,10 @@ DJANGO_APPS = [
     'django.contrib.staticfiles',
 ]
 
-PROJECTS_APPS = []
+PROJECTS_APPS = [
+    'apps.blog',
+    'apps.category',
+]
 
 THIRD_PARTY_APPS = []
 
